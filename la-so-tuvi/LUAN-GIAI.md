@@ -20,9 +20,22 @@ Bản trước tôi lập ra **Thủy Nhị Cục**, Mệnh **vô chính diệu*
 
 **Hệ quả lớn nhất:** Tử Vi phải ở **Thìn**, suy ra **THIÊN ĐỒNG thủ Mệnh tại Hợi** — đúng như bạn đã chỉ ra. Mệnh **không** vô chính diệu.
 
-Cả hai quy tắc trên đều đã kiểm chứng hai chiều:
-- bằng thư viện an sao độc lập **py-iztro 0.1.5 (iztro 2.5.0)** — khớp từng sao ở cả 12 cung;
-- bằng chính ví dụ trong《Bí Nghi》(demo tr.114–118, Mệnh Bính Tý: Huynh Đệ ở Ất Hợi, Phụ Mẫu ở Đinh Sửu — nghịch địa chi).
+### 0.1 Chính cuốn sách xác nhận quy tắc lấy Cục
+
+《Bí Nghi》demo **tr.105**, phần *Xúc cơ pháp*, ví dụ 1 — nguyên văn:
+
+> *"Nữ mệnh sinh năm 1944 Giáp Ngọ (ngày 2 tháng 4 giờ Sửu) …
+> **(Trong ví dụ này, Mệnh cung Mậu Thìn nên là Mộc Tam Cục, không khớp với Thủy Nhị Cục)**"*
+
+Sách lấy Cục từ **Mậu Thìn = cung Mệnh** (Mậu Thìn = Đại Lâm Mộc → Mộc → Mộc Tam Cục), **không** từ Giáp Ngọ của năm sinh. Đây chính là quy tắc tôi đã làm sai ở bản trước.
+
+Áp vào lá số này: cung Mệnh = **Kỷ Hợi** = *Bình Địa Mộc* → **Mộc Tam Cục**.
+
+### 0.2 Kiểm chứng
+
+- **py-iztro 0.1.5 (iztro 2.5.0)** — engine an sao độc lập: `Cục=Mộc Tam Cục, Mệnh=Hợi, Thân=Hợi, Kỷ Hợi = Mệnh → Thiên Đồng[Lộc]`. Khớp engine của tôi **từng sao ở cả 12 cung**.
+- **sxtwl** (thư viện lịch độc lập thứ hai): âm lịch 1/10/1996 → dương lịch **1996-11-11** (thứ Hai), tứ trụ **Bính Tý · Kỷ Hợi · Nhâm Tý · Canh Tý**, đổi ngược lại ra đúng 1996/10/1.
+- **《Bí Nghi》demo tr.114–118**: Mệnh Bính Tý thì Huynh Đệ ở **Ất Hợi**, Phụ Mẫu ở **Đinh Sửu** ⇒ 12 cung đi **nghịch** địa chi. Khớp quy tắc (2).
 
 Bộ kiểm chứng `kiem-chung.py`: **153 ĐẠT / 0 LỖI**.
 
